@@ -1,0 +1,61 @@
+var I18n = require('react-native-i18n');
+I18n.fallbacks = true;
+
+I18n.translations = {
+  'en': {
+      mark1: "Mark 1",
+      mark2: "Mark 2",
+      mark3: "Mark 3",
+      mark4: "Mark 4",
+      mark5: "Mark 5",
+      mark6: "Mark 6",
+      mark7: "Mark 7",
+      mark8: "Mark 8",
+      weight1: "Weight 1",
+      weight1: "Weight 2",
+      weight1: "Weight 3",
+      weight1: "Weight 4",
+      weight1: "Weight 5",
+      weight1: "Weight 6",
+      weight1: "Weight 7",
+      weight1: "Weight 8",
+  },
+  'en-US':{
+      mark1: "Mark 1",
+      mark2: "Mark 2",
+      mark3: "Mark 3",
+      mark4: "Mark 4",
+      mark5: "Mark 5",
+      mark6: "Mark 6",
+      mark7: "Mark 7",
+      mark8: "Mark 8",
+      weight1: "Weight 1",
+      weight1: "Weight 2",
+      weight1: "Weight 3",
+      weight1: "Weight 4",
+      weight1: "Weight 5",
+      weight1: "Weight 6",
+      weight1: "Weight 7",
+      weight1: "Weight 8",
+    },
+  'fr': {
+      mark1: "Marque 1",
+      mark2: "Marque 2",
+      mark3: "Marque 3",
+      mark4: "Marque 4",
+      mark5: "Marque 5",
+      mark6: "Marque 6",
+      mark7: "Marque 7",
+      mark8: "Marque 8",
+      weight1: "Poid 1",
+      weight1: "Poid 2",
+      weight1: "Poid 3",
+      weight1: "Poid 4",
+      weight1: "Poid 5",
+      weight1: "Poid 6",
+      weight1: "Poid 7",
+      weight1: "Poid 8",
+  }
+}
+
+module.exports = I18n,I18n.translations;
